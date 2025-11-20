@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Architecture Portfolio – Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: 500;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .viewer {
+            width: 100vw;
+            height: calc(100vh - 70px);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name – Architecture Portfolio</h1>
+    </header>
+
+    <iframe
+        class="viewer"
+        src="portfolio.pdf#view=FitH"
+        allow="fullscreen">
+    </iframe>
+
+</body>
+</html>
