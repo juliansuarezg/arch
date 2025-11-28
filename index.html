@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zine-style PDF flipbook — locked two-page spread</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- jQuery (turn.js dependency) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- turn.js (page flip effect) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.0/turn.min.js"></script>
+
+  <!-- PDF.js -->
+  <script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.min.js"></script>
+</head>
+<body>
+  <div class="page-bg">
+    <div class="book-wrapper">
+      <div id="flipbook" class="flipbook">
+        <!-- pages appended here by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
